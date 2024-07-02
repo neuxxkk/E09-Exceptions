@@ -26,7 +26,7 @@ public class Main {
             conta2.sacar(4001);
             //conta2.transferir(conta1, 500);
         }catch (Exception v){
-            System.err.println("\n" + v);
+            v.printStackTrace();
         }
 
         //System.out.println(conta2);
