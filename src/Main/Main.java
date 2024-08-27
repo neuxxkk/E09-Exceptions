@@ -19,15 +19,17 @@ public class Main {
         System.out.println(conta2);
 
         try{
-            conta1.sacar(40);
-            conta1.depositar(1);
-            conta2.transferir(conta1, 90);
+            //conta1.sacar(40);
+            //Conta1.depositar(1);
+    	    //conta2.transferir(conta1, 90);
             conta2.sacar(355);
-            conta2.sacar(4001);
+    	    conta2.sacar(4000);
             //conta2.transferir(conta1, 500);
         }catch (Exception v){
             v.printStackTrace();
         }
+        
+	    
 
         //System.out.println(conta2);
         conta1.imprimirExtratoConta(1); //Depositos seguido de Saques
